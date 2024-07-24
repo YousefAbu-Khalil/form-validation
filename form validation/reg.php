@@ -96,10 +96,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         }
     }
 }
-
+}
 function test_input($data) {
     return htmlspecialchars(stripslashes(trim($data)));
 }
+
 ?>
 
 
